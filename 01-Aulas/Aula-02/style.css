@@ -1,0 +1,14 @@
+/* Usando com ID seletor */
+#tituloH2 {
+	color: var(--cor-vermelha);
+}
+
+/* Usando com class seletor */
+.tituloH2 {
+	color: var(--cor-verde);
+}
+
+/* Usando com proprio seletor */
+h2 {
+	color: blueviolet;
+}

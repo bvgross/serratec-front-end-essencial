@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Currículo</title>
+	<link href="globalStyle.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<h1>Professor Serratec</h1>
+		<p>Gosto de animes</p>
+
+		<section>
+			<h2>Imagem de perfil</h2>
+			<img src="../Aula_01/Login/background.jpg" alt="Imagem de perfil do usuario." />
+		</section>
+
+		<nav>
+			<ul>
+				<li>
+					<a href="#formacao"> Formação </a>
+				</li>
+
+				<li>
+					<a href="#hobbies"> Hobbies </a>
+				</li>
+
+				<li>
+					<a href="#contato"> Contato </a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="formacao">
+		<h2>Formação acadêmica</h2>
+		<dl>
+			<dt>Ensino médio</dt>
+			<dd>Completo</dd>
+
+			<dt>Ensino superior</dt>
+			<dd>Completo</dd>
+		</dl>
+	</section>
+	</dl>
+
+	<section id="hobbies">
+		<h2>Hobbies</h2>
+		<ul>
+			<li>Jogar futebol</li>
+			<li>Jogar volei</li>
+			<li>Jogar videogame</li>
+			<li>Assistir series e filmes</li>
+			<li>Viajar</li>
+			<li>Tocar bateria</li>
+		</ul>
+	</section>
+
+	<section id="contato">
+		<h2>Contatos</h2>
+		<p>
+			<a href="https://facebook.com">Facebook</a>
+		</p>
+		<p>
+			<a href="https://linkedin.com">Linkedin</a>
+		</p>
+		<p>
+			<a href="mailto:professor@gmail.com">E-mail</a>
+		</p>
+	</section>
+
+	<section>
+		<h2>Formulário de contato</h2>
+		<form>
+			<label for="nomeUser">Nome</label>
+			<input id="nameUser" type="text" name="nameUser" placeholder="Digite seu nome..">
+
+			<label for="emailUser">E-mail</label>
+			<input id="emailUser" type="email" name="emailUser" placeholder="Digite seu e-mail...">
+
+			<label for="textUser">Sugestões</label>
+			<textarea id="textUser" name="textUser" placeholder="Digite sua sugestão..."></textarea>
+
+			<label for="passwordUser">Senha</label>
+			<input type="password" id="passwordUser" name="passwordUser" placeholder="Digite sua senha..." pattern=".{8,}"
+				title="A senha precisa ter oito caracteres ou mais" />
+
+			<!-- <label for="descriptionUser">Descrição</label> -->
+			<!-- <textarea id="descriptionUser" placeholder="Digite sua duvida"></textarea> -->
+
+			<br />
+
+			<label for="dateUser">Data</label>
+			<input type="date" id="dateUser" name="dateUser" />
+
+			<br />
+
+			<label for="checkUser">Marque as opções no checkbox</label>
+			<input type="checkbox" id="checkUser" name="checkUser" />
+
+			<br />
+
+			<label for="radioUser">Selecione uma opção</label>
+			<input type="radio" id="radioUser" name="radioUser" />
+
+			<br />
+
+			<button type="submit">
+				Enviar
+			</button>
+
+			<button type="submit">Enviar</button>
+		</form>
+	</section>
+
+	<footer>
+		<p>&copy 2025 Bruno Ventura Gross. Todos os direitos reservados.</p>
+	</footer>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#divVerde {
+
+	background-color: green;
+	margin: 20px 20px;
+	font-size: 30px;
+	border-radius: 10px;
+}
+
+#divAzul {
+	background-color: blue;
+	font-size: 30px;
+	padding: 30px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 10px
+}
+
+#divVermelha {
+	background-color: red;
+	width: 20px;
+	overflow: hidden;
+}
+
+div {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+}
+
+#div1 {
+	background-color: red;
+}
+
+#div2 {
+	top: 0;
+	right: 0;
+	background-color: blue;
+}
+
+#div3 {
+	right: 0;
+	bottom: 0;
+	background-color: green;
+}
+
+#div4 {
+	bottom: 0;
+	background-color: violet;
+}
+
+#div5 {
+	background-color: orange;
+	top: calc(50% - 25px);
+	left: calc(50% - 25px);
+}
